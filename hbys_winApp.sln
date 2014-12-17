@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hbys_winApp", "hbys_winApp\hbys_winApp.csproj", "{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{FDE3E781-E5A5-441E-BD02-55DA6011F46D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}.Debug|x86.ActiveCfg = Debug|x86
+		{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}.Debug|x86.Build.0 = Debug|x86
+		{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}.Release|x86.ActiveCfg = Release|x86
+		{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}.Release|x86.Build.0 = Release|x86
+		{FDE3E781-E5A5-441E-BD02-55DA6011F46D}.Debug|x86.ActiveCfg = Debug
+		{FDE3E781-E5A5-441E-BD02-55DA6011F46D}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

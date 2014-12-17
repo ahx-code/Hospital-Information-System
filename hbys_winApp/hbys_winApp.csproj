@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A666E6AC-5D3E-4FE4-8428-6A292F7B8BB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hbys_winApp</RootNamespace>
+    <AssemblyName>hbys_winApp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shortcut.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addDiagtoExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDiagtoExam.Designer.cs">
+      <DependentUpon>addDiagtoExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addDrug2Recipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDrug2Recipe.Designer.cs">
+      <DependentUpon>addDrug2Recipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addDrugNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDrugNamesForm.Designer.cs">
+      <DependentUpon>addDrugNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addDiagnosisNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDiagnosisNamesForm.Designer.cs">
+      <DependentUpon>addDiagnosisNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addEstablishmentNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEstablishmentNames.Designer.cs">
+      <DependentUpon>addEstablishmentNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addExaminationDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addExaminationDatas.Designer.cs">
+      <DependentUpon>addExaminationDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addPersonalDatasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPersonalDatasForm.Designer.cs">
+      <DependentUpon>addPersonalDatasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addRecipe2Exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addRecipe2Exam.Designer.cs">
+      <DependentUpon>addRecipe2Exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addRecipeDatasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addRecipeDatasForm.Designer.cs">
+      <DependentUpon>addRecipeDatasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSendingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSendingForm.Designer.cs">
+      <DependentUpon>addSendingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addServiceNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addServiceNameForm.Designer.cs">
+      <DependentUpon>addServiceNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSurvey2Exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSurvey2Exam.Designer.cs">
+      <DependentUpon>addSurvey2Exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSurveyNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSurveyNames.Designer.cs">
+      <DependentUpon>addSurveyNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addTitleName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addTitleName.Designer.cs">
+      <DependentUpon>addTitleName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hisLib.cs" />
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addPatientDatasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPatientDatasForm.Designer.cs">
+      <DependentUpon>addPatientDatasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showExamDiagDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showExamDiagDatas.Designer.cs">
+      <DependentUpon>showExamDiagDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showExaminationDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showExaminationDatas.Designer.cs">
+      <DependentUpon>showExaminationDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showRecipeDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showRecipeDatas.Designer.cs">
+      <DependentUpon>showRecipeDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showSendingDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showSendingDatas.Designer.cs">
+      <DependentUpon>showSendingDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="titleBoxItem.cs" />
+    <Compile Include="showDiagnosisNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showDiagnosisNamesForm.Designer.cs">
+      <DependentUpon>showDiagnosisNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showDrugNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showDrugNamesForm.Designer.cs">
+      <DependentUpon>showDrugNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showEstablishmentNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showEstablishmentNamesForm.Designer.cs">
+      <DependentUpon>showEstablishmentNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showPatientDatasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showPatientDatasForm.Designer.cs">
+      <DependentUpon>showPatientDatasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="showPersonalDatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showPersonalDatas.Designer.cs">
+      <DependentUpon>showPersonalDatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showServiceNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showServiceNamesForm.Designer.cs">
+      <DependentUpon>showServiceNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showSurveyNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showSurveyNamesForm.Designer.cs">
+      <DependentUpon>showSurveyNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showTitleNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showTitleNamesForm.Designer.cs">
+      <DependentUpon>showTitleNamesForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addDiagtoExam.resx">
+      <DependentUpon>addDiagtoExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDrug2Recipe.resx">
+      <DependentUpon>addDrug2Recipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDrugNamesForm.resx">
+      <DependentUpon>addDrugNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDiagnosisNamesForm.resx">
+      <DependentUpon>addDiagnosisNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addEstablishmentNames.resx">
+      <DependentUpon>addEstablishmentNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addExaminationDatas.resx">
+      <DependentUpon>addExaminationDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPersonalDatasForm.resx">
+      <DependentUpon>addPersonalDatasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addRecipe2Exam.resx">
+      <DependentUpon>addRecipe2Exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addRecipeDatasForm.resx">
+      <DependentUpon>addRecipeDatasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSendingForm.resx">
+      <DependentUpon>addSendingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addServiceNameForm.resx">
+      <DependentUpon>addServiceNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSurvey2Exam.resx">
+      <DependentUpon>addSurvey2Exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSurveyNames.resx">
+      <DependentUpon>addSurveyNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addTitleName.resx">
+      <DependentUpon>addTitleName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPatientDatasForm.resx">
+      <DependentUpon>addPatientDatasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showDiagnosisNamesForm.resx">
+      <DependentUpon>showDiagnosisNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showDrugNamesForm.resx">
+      <DependentUpon>showDrugNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showEstablishmentNamesForm.resx">
+      <DependentUpon>showEstablishmentNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showExamDiagDatas.resx">
+      <DependentUpon>showExamDiagDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showExaminationDatas.resx">
+      <DependentUpon>showExaminationDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showPatientDatasForm.resx">
+      <DependentUpon>showPatientDatasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="showPersonalDatas.resx">
+      <DependentUpon>showPersonalDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showRecipeDatas.resx">
+      <DependentUpon>showRecipeDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSendingDatas.resx">
+      <DependentUpon>showSendingDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showServiceNamesForm.resx">
+      <DependentUpon>showServiceNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSurveyNamesForm.resx">
+      <DependentUpon>showSurveyNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showTitleNamesForm.resx">
+      <DependentUpon>showTitleNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\featuredIcon.jpg" />
+    <Content Include="img\imagesCAOCCS6J.jpg" />
+    <Content Include="img\shortcut.ico" />
+    <Content Include="shortcut.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
